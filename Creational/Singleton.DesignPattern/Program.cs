@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Singleton.Instance.DoSomething();
+            Singleton.Instance.DoSomething();
+
+            Console.ReadKey();
         }
     }
 }
