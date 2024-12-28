@@ -59,11 +59,11 @@ namespace StrategyDesignPattern
 
 ```
 
-    <h3>
-        Step 2: Creating Concrete Strategies
-    </h3>
+<h3>
+    Step 2: Creating Concrete Strategies
+</h3>
 
-    <h4>RarCompression:</h4>
+<h4>RarCompression:</h4>
 
 
 ```c#
@@ -89,7 +89,7 @@ namespace StrategyDesignPattern
     Zip Compression:
 </h4>
 
-``` c#
+```c#
 using System;
 namespace StrategyDesignPattern
 {
@@ -150,7 +150,7 @@ namespace StrategyDesignPattern
 <h3>Step 4: Client</h3>
 
 
-``` c#
+```c#
 
 using System;
 namespace StrategyDesignPattern
